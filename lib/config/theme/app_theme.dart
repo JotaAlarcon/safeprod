@@ -1,14 +1,17 @@
 import 'package:flutter/material.dart';
+import 'package:safejob/config/constants/colors.dart';
+import 'package:safejob/config/theme/custom_appbar_theme.dart';
 
 class AppTheme {
   static final ThemeData lightTheme = ThemeData(
     brightness: Brightness.light,
-    scaffoldBackgroundColor: Color(0xffE2E9EB),
-    appBarTheme: AppBarTheme(backgroundColor: Color(0xffE2E9EB)),
+    scaffoldBackgroundColor: CustomColors.backgroundLight,
+    appBarTheme: CustomAppbarTheme.lightAppbarTheme,
   );
 
   static final ThemeData darkTheme = ThemeData(
     brightness: Brightness.dark,
-    scaffoldBackgroundColor: Color(0xff363636),
+    scaffoldBackgroundColor: CustomColors.backgroundDark,
+    appBarTheme: CustomAppbarTheme.darkAppbarTheme,
   );
 }
