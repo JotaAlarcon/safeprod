@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:safejob/config/constants/colors.dart';
-import 'package:safejob/widgets/appbar/custom_bar.dart';
-import 'package:safejob/widgets/profile/header_profile.dart';
+import 'package:safejob/widgets/custom_bar.dart';
+import 'package:safejob/widgets/filter_card.dart';
+import 'package:safejob/widgets/header_profile.dart';
+import 'package:safejob/widgets/horizontal_view.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -20,15 +22,26 @@ class HomeScreen extends StatelessWidget {
               rut: '17437557-7',
               jobTitle: 'Gestor de automatizacion',
             ),
-            SizedBox(height: 16,),
+            SizedBox(height: 16),
             Divider(
+              height: 1,
               indent: 18,
               endIndent: 18,
-              thickness: 2,
+              thickness: 1,
               color: CustomColors.primaryLight,
             ),
-            SizedBox(height: 16,),
-
+            SizedBox(height: 10),
+            HorizontalView(),
+            SizedBox(height: 10),
+             Divider(
+              height: 1,
+              indent: 18,
+              endIndent: 18,
+              thickness: 1,
+              color: CustomColors.primaryLight,
+            ),
+            SizedBox(height: 10),
+            FilterCard(),
           ],
         ),
       ),

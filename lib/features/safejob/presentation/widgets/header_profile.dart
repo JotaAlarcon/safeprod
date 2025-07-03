@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:safejob/config/constants/colors.dart';
+import 'package:safejob/core/constants/colors.dart';
 
 class HeaderProfile extends StatelessWidget {
   final String imageUrl;

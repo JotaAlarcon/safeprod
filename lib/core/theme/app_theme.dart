@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:safejob/config/constants/colors.dart';
-import 'package:safejob/config/theme/custom_appbar_theme.dart';
+import 'package:safejob/core/constants/colors.dart';
+import 'package:safejob/core/theme/custom_appbar_theme.dart';
 
 class AppTheme {
   static final ThemeData lightTheme = ThemeData(

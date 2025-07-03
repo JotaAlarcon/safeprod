@@ -8,8 +8,7 @@ class CustomColors {
   static Color redAlert = Color(0xffCC0000);
   static Color orangeAlert = Color(0xffFFB800);
   static Color grey = Color(0xff616163);
-  static Color lightGrey = Color(0xffCCCCCC);
+  static Color lightGrey = Color(0xffF1F1F1);
   static Color black = Color(0xff000000);
   static Color backgroundDark = Color(0xff363636);
-
 }
