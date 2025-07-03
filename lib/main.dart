@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:safejob/config/theme/app_theme.dart';
-import 'package:safejob/presentation/screens/home/home_screen.dart';
+import 'package:safejob/core/theme/app_theme.dart';
+import 'package:safejob/features/safejob/presentation/screens/home/home_screen.dart';
 
 void main() {
   runApp(const MainApp());

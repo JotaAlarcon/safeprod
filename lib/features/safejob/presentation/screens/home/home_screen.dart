@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:safejob/config/constants/colors.dart';
-import 'package:safejob/widgets/custom_bar.dart';
-import 'package:safejob/widgets/filter_card.dart';
-import 'package:safejob/widgets/header_profile.dart';
-import 'package:safejob/widgets/horizontal_view.dart';
+import 'package:safejob/core/constants/colors.dart';
+import 'package:safejob/features/safejob/presentation/widgets/custom_bar.dart';
+import 'package:safejob/features/safejob/presentation/widgets/filter_card.dart';
+import 'package:safejob/features/safejob/presentation/widgets/header_profile.dart';
+import 'package:safejob/features/safejob/presentation/widgets/horizontal_view.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
