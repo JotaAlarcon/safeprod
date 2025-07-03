@@ -6,7 +6,7 @@ class AppTheme {
   static final ThemeData lightTheme = ThemeData(
     brightness: Brightness.light,
     scaffoldBackgroundColor: CustomColors.backgroundLight,
-    appBarTheme: CustomAppbarTheme.lightAppbarTheme
+    appBarTheme: CustomAppbarTheme.lightAppbarTheme,
   );
 
   static final ThemeData darkTheme = ThemeData(
